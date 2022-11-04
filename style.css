@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.body1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: larger;
+}
+
+header {
+    background-color: #a8eded;
+    height: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navigation {
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #01755e;
+    margin-right: 7px;
+    padding: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40x;
+    height: 40px;
+
+}
+
+.navigation a:hover {
+    background-color: #a8eded;
+    color: #000504;
+    transition: 0.5 ease-in-out;
+}
+
+.element {
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+    background-color: white;
+    color: #4A4E4E;
+    text-shadow: -2px 8px 8px rgba(138, 235, 238, 0.4);
+    padding-left: 45%;
+    padding-top: 50px;
+}
+
+.About img {
+    float: right;
+}
+
+.About p {
+    margin-top: 5em;
+    margin-left: 10%;
+    width: 40%;
+    text-align: justify;
+    line-height: 1.6;
+
+}
+
+#hr1 {
+    margin-top: 9%;
+    margin-bottom: 5%;
+    border-style: dotted none none none;
+    border-width: 4px;
+    width: 10%;
+    margin-left: 45%;
+    border-color: #b4b1ae;
+}
+
+.heading {
+    color: #66BFBF;
+    margin-bottom: 5px;
+}
+
+.acheivement img {
+    padding-left: 5%;
+}
+
+.acheivement ul {
+    float: right;
+    padding-right: 22%;
+    padding-top: 2.5em;
+    line-height: 1.7;
+    list-style: none;
+}
+
+.experience img {
+    float: right;
+}
+
+.experience p {
+    margin-top: 3em;
+    margin-left: 10%;
+    width: 40%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.experience span {
+    font-size: medium;
+}
+
+.experience ul {
+    margin-top: 2em;
+    margin-left: 10%;
+    width: 40%;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: medium;
+}
+
+.education table {
+    float: right;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.contact img {
+    float: right;
+}
+
+.contact form {
+    margin-top: 2em;
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 50%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number],
+select {
+    width: 50%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 50%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#Up {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1em;
+    line-height: 4;
+    margin-top: 8%;
+    height: 8em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #a8eded;
+}
